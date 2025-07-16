@@ -69,7 +69,7 @@ ffmpeg -version
 
 ### ✅ Step 3: Clone This Repository
 ```
-[git clone https://github.com/YOUR_USERNAME/transcode-nexus.git](https://github.com/ajmal0202/transcode-nexus.git)
+git clone https://github.com/ajmal0202/transcode-nexus.git
 cd transcode-nexus
 ```
 ### ✅ Step 4: Run Flask App
@@ -124,7 +124,7 @@ sudo systemctl enable --now docker
 ```
 ### ✅ Step 2: Clone This Repository
 ```
-git clone https://github.com/YOUR_USERNAME/transcode-nexus.git
+git clone https://github.com/ajmal0202/transcode-nexus.git
 cd transcode-nexus
 ```
 ### ✅ Step 3: Build Docker Image
