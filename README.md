@@ -40,9 +40,6 @@ transcode-nexus/
 - NGINX (for reverse proxy)
 
 ------------------------------------------------------------------------------------------------------
-# ⚙️ Manual Installation (No Docker)                     - line 47-117
-# 🐳 Docker-Based Deployment (Recommended)               - line 121-145
-------------------------------------------------------------------------------------------------------
 
 # ⚙️ Manual Installation (No Docker)
 
