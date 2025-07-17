@@ -53,6 +53,9 @@ git clone https://github.com/ajmal0202/transcode-nexus.git
 ```
 ------------------------------------------------------------------------------------------------------
 # ⚙️ Manual Installation (No Docker)
+> ⚠️ **Note:**  
+> If you prefer not to install everything manually, you can skip the following steps and go directly to the [Docker-Based Deployment](#-docker-deployment) section below for a faster setup.
+
 
 ### ✅ Step 1: Install Python and Flask
 
