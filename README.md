@@ -40,7 +40,18 @@ transcode-nexus/
 - NGINX (for reverse proxy)
 
 ------------------------------------------------------------------------------------------------------
+# 📦 Clone This Project
 
+### ✅ Step 1: Install Git (if not installed)
+
+```bash
+sudo dnf install git -y
+```
+# ✅ Step 2: Clone the Repository
+```
+git clone https://github.com/ajmal0202/transcode-nexus.git
+```
+------------------------------------------------------------------------------------------------------
 # ⚙️ Manual Installation (No Docker)
 
 ### ✅ Step 1: Install Python and Flask
@@ -67,13 +78,9 @@ Verify installation
 ffmpeg -version
 ```
 
-### ✅ Step 3: Clone This Repository
+### ✅ Step 3: Go to the project directory and Run Flask App
 ```
-git clone https://github.com/ajmal0202/transcode-nexus.git
-cd transcode-nexus
-```
-### ✅ Step 4: Run Flask App
-```
+cd ~/transcode-nexus
 python3 app.py
 ```
 Then open in browser:
@@ -122,10 +129,9 @@ Your app will now be live at:
 sudo yum install -y docker
 sudo systemctl enable --now docker
 ```
-### ✅ Step 2: Clone This Repository
+### ✅ Step 2: Go to the project directory 
 ```
-git clone https://github.com/ajmal0202/transcode-nexus.git
-cd transcode-nexus
+cd ~/transcode-nexus
 ```
 ### ✅ Step 3: Build Docker Image
 ```
