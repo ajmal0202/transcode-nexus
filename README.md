@@ -89,7 +89,7 @@ python3 app.py
 Then open in browser:
 🌐 http://<your_server_ip>:5000 (Make sure port 5000 is open in your EC2 security group)
 
-### ✅ Step 5: Set Up NGINX Reverse Proxy
+### ✅ Step 4: Set Up NGINX Reverse Proxy
 ```
 sudo yum install nginx -y
 sudo systemctl enable --now nginx
