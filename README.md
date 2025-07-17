@@ -111,7 +111,7 @@ Then restart NGINX:
 sudo systemctl restart nginx
 ```
 Your app will now be live at:
-🌍 http://<your-ec2-public-ip>
+🌍 http://<your_public_ip>
 
 ------------------------------------------------------------------------------------------------------
 
