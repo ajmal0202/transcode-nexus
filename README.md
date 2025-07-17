@@ -77,7 +77,7 @@ cd transcode-nexus
 python3 app.py
 ```
 Then open in browser:
-🌐 http://<your-server-ip>:5000 (Make sure port 5000 is open in your EC2 security group)
+🌐 http://<your_server_ip>:5000 (Make sure port 5000 is open in your EC2 security group)
 
 ### ✅ Step 5: Set Up NGINX Reverse Proxy
 ```
@@ -136,7 +136,7 @@ sudo docker build -t transcode-nexus .
 sudo docker run -d --network=host --name nexus transcode-nexus
 ```
 App will now be available on:
-📍 http://<your-server-ip>:5000 (Make sure port 5000 is open in your EC2 security group)
+📍 http://<your_server_ip>:5000 (Make sure port 5000 is open in your EC2 security group)
 
 ### ✅ Step 5: Set Up NGINX
 Use the same NGINX steps from the manual installation section to make the app public on port 80.
